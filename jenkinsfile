@@ -3,22 +3,22 @@ pipeline{
     stages{
         stage ('building stage') {
             steps{
-                echo 'wan baba january'
+                echo 'wan baba january 2020'
             }
         }
         stage ('test stage') {
             steps{
-                echo 'test baba february'
+                echo 'test baba february 2022'
             }
         }
         stage ('deploy stage') {
             steps{
-                echo 'deploy baba march'
+                echo 'deploy baba march 2024'
             }
         }
         stage ('sonarqube stage') {
             steps{
-                echo 'testing baba april'
+                echo 'testing baba april 2026'
             }
         }
     }
