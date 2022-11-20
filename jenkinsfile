@@ -13,7 +13,7 @@ pipeline{
         }
         stage ('deploy stage') {
             steps{
-                echo 'deploy baba march 2024'
+                echo 'deploy baba march 2024  kinyuy kinyuy'
             }
         }
         stage ('sonarqube stage') {
