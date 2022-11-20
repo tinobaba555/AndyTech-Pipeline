@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage ('building stage') {
             steps{
-                echo 'wan baba january 2020'
+                echo 'wan baba january 2020. ooooohhhhoooohooo'
             }
         }
         stage ('test stage') {
