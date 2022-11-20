@@ -8,7 +8,7 @@ pipeline{
         }
         stage ('test stage') {
             steps{
-                echo 'test baba february 2022'
+                echo 'test baba february 2022 lah dze mum!!!!'
             }
         }
         stage ('deploy stage') {
