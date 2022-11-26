@@ -1,10 +1,19 @@
 pipeline {
     agent any
+   
+   tools {
+  maven 'maven 3'
+}
       stages {
         stage ("continuious Download") {
           steps {
           git 'https://github.com/tinobaba555/Jenkins-Full-Course-on-aws-Linux.git'
            }
+        }
+        stage ("Continuous Build"){
+          steps {
+          sh 'mvn -version'
+          }
         }
     }
 }
