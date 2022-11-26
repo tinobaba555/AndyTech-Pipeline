@@ -1,8 +1,8 @@
 pipeline {
     agent any
       stages {
-        Stage ("continuious Download") {
-          Steps {
+        stage ("continuious Download") {
+          steps {
           git 'https://github.com/tinobaba555/Jenkins-Full-Course-on-aws-Linux.git'
            }
         }
