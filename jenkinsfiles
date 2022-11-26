@@ -3,6 +3,7 @@ pipeline {
       Stages {
         Stage ("continuious Download") {
           Steps {
+          git 'https://github.com/tinobaba555/Jenkins-Full-Course-on-aws-Linux.git'
            }
         }
     }
