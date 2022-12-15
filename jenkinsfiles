@@ -15,9 +15,9 @@ pipeline {
          sh 'mvn -version'
           }
         }
-        stage ("maven clean install") {
+        stage ("maven clean package") {
         steps {
-        sh 'mvn -chdir maven/pom.xml clean install'
+        sh 'mvn -f  maven/pom.xml clean package'
         }
        }
     }
