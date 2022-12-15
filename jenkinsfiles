@@ -20,5 +20,10 @@ pipeline {
         sh 'mvn -f Maven/pom.xml clean package'
         }
        }
+       stage ("maven clean install") {
+           steps {
+               sh 'mvn -f Maven/pom.xml clean install'
+           }
+       }
     }
 }
